@@ -8,9 +8,9 @@ import '../../../core/utils/extension.dart';
 import '../../../core/widget/primary_button.dart';
 import '../controller/onboard_controller.dart';
 
-class OnboardView extends GetView<OnboardController> {
-  const OnboardView({super.key});
-
+class OnboardView extends StatelessWidget {
+  OnboardView({super.key});
+  final OnboardController controller = Get.find<OnboardController>();
   @override
   Widget build(BuildContext context) {
     final ts = Theme.of(context).textTheme;

@@ -41,7 +41,7 @@ class PrimaryButton extends StatelessWidget {
           minimumSize: minimumSize,
           foregroundColor: AppColors.primaryButtonText,
           backgroundColor: AppColors.white,
-          padding: EdgeInsets.fromLTRB(32.w, 8, 32.w, 8),
+          padding: EdgeInsets.fromLTRB(30.h, 8, withIcon ? 18.h : 30.h, 8),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20.h),
           ),

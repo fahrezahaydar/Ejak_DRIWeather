@@ -8,4 +8,9 @@ class AppSvgs {
   static final String onBoardSun = "assets/svg/onboard_sun.svg";
 
   static final String homeBg = "assets/svg/home_background.svg";
+
+  static const String hum = "assets/svg/home_hum.svg";
+  static const String wind = "assets/svg/home_windy.svg";
+  static const String rainy = "assets/svg/raini.svg";
+  static const String sun = "assets/svg/sun.svg";
 }

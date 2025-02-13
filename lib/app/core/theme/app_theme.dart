@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../constants/app_colors.dart';
+
 part "text_theme.dart";
 
 class AppTheme {
@@ -12,5 +14,14 @@ class AppTheme {
     ),
     fontFamily: "Overpass",
     textTheme: textTheme,
+    iconButtonTheme: IconButtonThemeData(
+        style: ButtonStyle(
+      foregroundColor: WidgetStatePropertyAll(AppColors.white),
+    )),
+    iconTheme: IconThemeData(color: AppColors.white),
+    textButtonTheme: TextButtonThemeData(
+        style: ButtonStyle(
+      foregroundColor: WidgetStatePropertyAll(AppColors.white),
+    )),
   );
 }

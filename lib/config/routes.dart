@@ -6,9 +6,13 @@ abstract class Routes {
 
   static const ONBOARD = _Paths.ONBOARD;
   static const HOME = _Paths.HOME;
+  static const DETAILS = _Paths.DETAILS;
+  static const SEARCH = _Paths.SEARCH;
 }
 
 abstract class _Paths {
   static const ONBOARD = '/';
   static const HOME = '/home';
+  static const DETAILS = '/details';
+  static const SEARCH = '/search';
 }

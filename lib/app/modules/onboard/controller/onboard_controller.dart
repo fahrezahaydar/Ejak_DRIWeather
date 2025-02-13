@@ -12,11 +12,12 @@ class OnboardController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+
     checkPermission();
   }
 
   Future<void> checkPermission() async {
-    bool isGranted = await _locationService.requestPermission();
+    bool isGranted = await _locationService.checkPermission();
     if (isGranted) {
       Get.offNamed(Routes.HOME);
     }
